@@ -32,9 +32,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: npm install --no-audit --no-found --no-optional
+        run: npm install --no-audit --no-fund --no-optional
 
-      # --no-audit --no-found --no-optional son para que realice el npm install mas rapido
+      # --no-audit --no-fund --no-optional son para que realice el npm install mas rapido
 
       # Runs a set of commands using the runners shell
       - name: Check Build
