@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Stack from './components/Stack/Stack';
