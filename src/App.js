@@ -1,5 +1,6 @@
 /* eslint-disable linebreak-style */
 import About from './components/About/About';
+import Education from './components/Education/Education';
 import Projects from './components/Projects/Projects';
 import Stack from './components/Stack/Stack';
 
@@ -12,6 +13,7 @@ function App() {
       </header>
       <About />
       <Stack />
+      <Education />
       <Projects />
     </div>
   );
