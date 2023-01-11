@@ -1,0 +1,7 @@
+.mainContact {
+  background-image: url('../Data/nebulosa-ngc-6302.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
