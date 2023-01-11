@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.77d15cb1.js",
+    "main.css": "/portfolio/static/css/main.431a2ca9.css",
+    "main.js": "/portfolio/static/js/main.f8e5a340.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pilares.jpg": "/portfolio/static/media/pilares.f8a6ab42ddde99b3804a.jpg",
+    "static/media/nebulosa-helice.jpg": "/portfolio/static/media/nebulosa-helice.c886aeece7bd93f9950d.jpg",
+    "static/media/nebulosa-ngc-6302.jpg": "/portfolio/static/media/nebulosa-ngc-6302.262a9ac14d17c613f335.jpg",
+    "static/media/galaxy1.jpg": "/portfolio/static/media/galaxy1.7e10ca4f4cfaa745b53f.jpg",
+    "static/media/nebulosacangrejo.jpg": "/portfolio/static/media/nebulosacangrejo.0d98cef7d7e3c04e8ff9.jpg",
     "index.html": "/portfolio/index.html",
-    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.77d15cb1.js.map": "/portfolio/static/js/main.77d15cb1.js.map",
+    "main.431a2ca9.css.map": "/portfolio/static/css/main.431a2ca9.css.map",
+    "main.f8e5a340.js.map": "/portfolio/static/js/main.f8e5a340.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.77d15cb1.js"
+    "static/css/main.431a2ca9.css",
+    "static/js/main.f8e5a340.js"
   ]
 }
