@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 import Education from '../Education/Education';
 import Projects from '../Projects/Projects';
 import Stack from '../Stack/Stack';
@@ -14,6 +15,7 @@ function Home() {
       <Stack />
       <Education />
       <Projects />
+      <Contact />
     </div>
   );
 }
