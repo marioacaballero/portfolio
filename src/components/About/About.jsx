@@ -1,10 +1,11 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
+import style from './About.module.css';
 
 function About() {
   return (
-    <main>
-      <h2>I am Mario Alberto Caballero</h2>
+    <main className={style.mainAbout}>
+      <h2>Mario Alberto Caballero</h2>
       <h3>Full Stack Web Developer and Engineer</h3>
       <a href="/">Download CV</a>
       <section>
