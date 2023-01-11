@@ -16,5 +16,6 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': 'off',
     'no-console': 'off',
+    'comma-dangle': 'off',
   },
 };
