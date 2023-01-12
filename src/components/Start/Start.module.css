@@ -12,7 +12,7 @@
 .mainStart > h1,
 .mainStart > header > p,
 .mainStart > h3 {
-  color: white;
+  color: whitesmoke;
   letter-spacing: 2px;
   -webkit-text-stroke: 1px blue;
   font-weight: bold;
