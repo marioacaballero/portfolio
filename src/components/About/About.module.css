@@ -1,11 +1,58 @@
-.mainAbout {
+.mainAbout,
+.mainAbout > section {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('../Data/pilares.jpg');
+}
+
+.mainAbout {
+  flex-direction: column;
+  background-image: url('../Data/pilares-v2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
+}
+
+.mainAbout > h2,
+.mainAbout > h3,
+.mainAbout > section {
+  /* color: whitesmoke; */
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainAbout > h2 {
+  font-size: 4rem;
+  margin-top: 5.5rem;
+  letter-spacing: 2px;
+}
+
+.mainAbout > h3 {
+  font-size: 1.5rem;
+}
+
+.mainAbout > section {
+  flex-direction: row;
+  width: 80%;
+  gap: 2rem;
+}
+
+.mainAbout > section > p,
+.mainAbout > section > img {
+  width: 50%;
+  height: 24rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0.5px solid rgba(245, 245, 245, 0.6);
+  border-radius: 0.5rem;
+}
+
+.mainAbout > section > p {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
