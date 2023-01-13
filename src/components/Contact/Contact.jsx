@@ -28,13 +28,13 @@ function Contact() {
 
   return (
     <div className={style.mainContact}>
-      <h2>Contact Me</h2>
+      <h2>-- Contact Me --</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input type="text" name="name" placeholder="Name" />
         <input type="email" name="email" placeholder="Email Address" />
         <input type="text" name="subject" placeholder="Subject" />
         <textarea name="message" placeholder="Your message" />
-        <input type="submit" value="Send" />
+        <button type="submit">Send Message</button>
       </form>
     </div>
   );
