@@ -72,3 +72,10 @@
   background-color: rgb(255, 0, 0, 0.3);
   color: rgb(245, 245, 245, 0.5);
 }
+
+.mainContact > form > p {
+  width: 60%;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
