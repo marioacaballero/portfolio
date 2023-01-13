@@ -1,7 +1,74 @@
+.mainContact,
+.mainContact > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .mainContact {
   background-image: url('../Data/Imgs/nebulosa-ngc-6302-v2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+  padding-bottom: 1rem;
+}
+
+.mainContact > h2 {
+  font-size: 4rem;
+  margin-top: 5.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.mainContact > form {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0.5px solid rgba(245, 245, 245, 0.6);
+  border-radius: 0.5rem;
+  width: 50%;
+  gap: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.mainContact > form > input,
+.mainContact > form > textarea {
+  width: 60%;
+  background-color: rgb(255, 255, 255, 0.3);
+  border: none;
+  padding: 5px;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+
+.mainContact > form > input:focus,
+.mainContact > form > textarea:focus {
+  outline: 0;
+}
+
+.mainContact > form > input {
+  font-size: 1.5rem;
+  height: 2rem;
+}
+
+.mainContact > form > textarea {
+  height: 8rem;
+  font-size: 1.2rem;
+}
+
+.mainContact > form > button {
+  background-color: rgb(255, 255, 255, 0.3);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+}
+
+.mainContact > form > button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0, 0.3);
+  color: rgb(245, 245, 245, 0.5);
 }
