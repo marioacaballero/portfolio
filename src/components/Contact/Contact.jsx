@@ -49,9 +49,6 @@ function Contact() {
           }
         );
       setInput(initialState);
-      alert('listo');
-    } else {
-      alert('necesitas escribir');
     }
   };
 
