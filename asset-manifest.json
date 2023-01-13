@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1fb359ad.css",
-    "main.js": "/portfolio/static/js/main.9b9008ac.js",
+    "main.css": "/portfolio/static/css/main.76f8d4be.css",
+    "main.js": "/portfolio/static/js/main.2e8902e1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pilares-v2.jpg": "/portfolio/static/media/pilares-v2.d207f221ac80519aed79.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.7a897455605983fd63ec.png",
     "static/media/nebulosa-ngc-6302-v2.jpg": "/portfolio/static/media/nebulosa-ngc-6302-v2.dbf556f44a6f3eaf5783.jpg",
     "static/media/galaxy1.jpg": "/portfolio/static/media/galaxy1.7e10ca4f4cfaa745b53f.jpg",
     "static/media/nebulosacangrejo.jpg": "/portfolio/static/media/nebulosacangrejo.0d98cef7d7e3c04e8ff9.jpg",
     "static/media/nebulosa-helice-v2.jpg": "/portfolio/static/media/nebulosa-helice-v2.6102ba103a2461b4d6be.jpg",
+    "static/media/teamwork.jpg": "/portfolio/static/media/teamwork.aacbe330278bda833492.jpg",
+    "static/media/pensamiento.jpg": "/portfolio/static/media/pensamiento.696b1226cf3d4617bb46.jpg",
+    "static/media/git.png": "/portfolio/static/media/git.8b1e599d9b6d53f946d8.png",
+    "static/media/css.png": "/portfolio/static/media/css.0df4ec533ed63ff4969b.png",
+    "static/media/liderazgo.jpg": "/portfolio/static/media/liderazgo.d5a46877d58c2674157c.jpg",
+    "static/media/selflearning.jpg": "/portfolio/static/media/selflearning.477086c6b5c9a4da440b.jpg",
+    "static/media/problemsolving.jpg": "/portfolio/static/media/problemsolving.5a9d1a7fe4423904e497.jpg",
+    "static/media/expressjs.png": "/portfolio/static/media/expressjs.b44f5a4b0ab040328aac.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.f99dcd15458d9f74b2fa.png",
+    "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "index.html": "/portfolio/index.html",
-    "main.1fb359ad.css.map": "/portfolio/static/css/main.1fb359ad.css.map",
-    "main.9b9008ac.js.map": "/portfolio/static/js/main.9b9008ac.js.map",
+    "main.76f8d4be.css.map": "/portfolio/static/css/main.76f8d4be.css.map",
+    "main.2e8902e1.js.map": "/portfolio/static/js/main.2e8902e1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fb359ad.css",
-    "static/js/main.9b9008ac.js"
+    "static/css/main.76f8d4be.css",
+    "static/js/main.2e8902e1.js"
   ]
 }
