@@ -7,7 +7,7 @@
 
 .mainAbout {
   flex-direction: column;
-  background-image: url('../Data/pilares-v2.jpg');
+  background-image: url('../Data/Imgs/pilares-v2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -44,7 +44,7 @@
 .mainAbout > section > p,
 .mainAbout > section > img {
   width: 50%;
-  height: 24rem;
+  /* height: 24rem; */
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.6);
   border: 0.5px solid rgba(245, 245, 245, 0.6);
