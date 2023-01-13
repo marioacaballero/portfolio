@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 import style from './Contact.module.css';
 import { validator } from './validators';
 
@@ -49,6 +50,20 @@ function Contact() {
           }
         );
       setInput(initialState);
+      swal({
+        title: 'Thank You',
+        text: 'Your message was sent successfully',
+        icon: 'success',
+        button: 'Agree',
+      });
+    } else {
+      handleInputChange(e);
+      swal({
+        title: 'Something is Missing',
+        text: 'Please check the form and complete the required fields',
+        icon: 'warning',
+        button: 'Agree',
+      });
     }
   };
 
