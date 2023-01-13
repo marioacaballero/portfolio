@@ -1,0 +1,13 @@
+.techImgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.techImgs > img {
+  background-color: whitesmoke;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 9999px;
+}

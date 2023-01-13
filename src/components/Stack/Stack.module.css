@@ -1,7 +1,65 @@
+.mainStack,
+.mainStack > section,
+.mainStack > section > div {
+  display: flex;
+  align-items: center;
+}
+
 .mainStack {
-  background-image: url('../Data/nebulosa-helice-v2.jpg');
+  flex-direction: column;
+  background-image: url('../Data/Imgs/nebulosa-helice-v2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainStack > h2,
+.mainStack > section {
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+}
+
+.mainStack > h2 {
+  font-size: 4rem;
+  margin-top: 5.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.mainStack > section {
+  width: 80%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.mainStack > section > div {
+  flex-direction: column;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 0.5px solid rgba(245, 245, 245, 0.6);
+  border-radius: 0.5rem;
+}
+
+.mainStack > section > div > h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.techSkills,
+.softSkills {
+  display: grid;
+  width: 80%;
+}
+
+.techSkills {
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 0.rem; */
+}
+
+.softSkills {
+  grid-template-columns: repeat(2, 1fr);
 }
