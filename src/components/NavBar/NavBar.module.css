@@ -1,0 +1,71 @@
+.mainNavBar,
+.mainNavBar > h2,
+.mainNavBar > section,
+.mainNavBar > div {
+  display: flex;
+  align-items: center;
+}
+
+.mainNavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainNavBar > h2 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+  width: 30%;
+  height: 100%;
+  margin-bottom: 0;
+  color: rgba(239, 35, 60, 0.85);
+}
+
+.mainNavBar > section {
+  width: 55%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.mainNavBar > div {
+  width: 15%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.mainNavBar > section > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+}
+
+.mainNavBar > section > a:hover {
+  cursor: pointer;
+  color: rgb(0, 98, 255);
+}
+
+.icon,
+.icon2 {
+  color: rgba(245, 245, 245, 0.85);
+}
+
+.icon:hover,
+.icon2:hover {
+  cursor: pointer;
+  color: rgb(0, 98, 255);
+}
+
+.icon {
+  font-size: 2.5rem;
+}
+.icon2 {
+  font-size: 2.35rem;
+}

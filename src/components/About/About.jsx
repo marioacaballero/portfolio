@@ -5,10 +5,8 @@ import profile from '../Data/Imgs/galaxy1.jpg';
 
 function About() {
   return (
-    <main className={style.mainAbout}>
-      {/* <h3>Get To Know</h3> */}
+    <main id="about" className={style.mainAbout}>
       <h2>-- About Me --</h2>
-      {/* <a href="/">Download CV</a> */}
       <section>
         <img alt="profile" src={profile} />
         <p>

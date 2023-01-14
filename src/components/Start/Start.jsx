@@ -3,7 +3,7 @@ import style from './Start.module.css';
 
 function Start() {
   return (
-    <div className={style.mainStart}>
+    <div id="home" className={style.mainStart}>
       <header>
         <p>Hello World! Welcome, I am</p>
       </header>

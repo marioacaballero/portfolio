@@ -68,7 +68,7 @@ function Contact() {
   };
 
   return (
-    <div className={style.mainContact}>
+    <div id="contact" className={style.mainContact}>
       <h2>-- Contact Me --</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input

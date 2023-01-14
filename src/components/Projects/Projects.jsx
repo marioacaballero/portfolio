@@ -5,7 +5,7 @@ import items from './projectsData';
 
 function Projects() {
   return (
-    <div className={style.mainProjects}>
+    <div id="projects" className={style.mainProjects}>
       <h2>-- My Projects --</h2>
       <section>
         <div>
