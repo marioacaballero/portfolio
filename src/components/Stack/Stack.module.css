@@ -38,7 +38,7 @@
 .mainStack > section > div {
   flex-direction: column;
   width: 50%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.75);
   border: 0.5px solid rgba(245, 245, 245, 0.6);
   border-radius: 0.5rem;
 }
@@ -47,6 +47,9 @@
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .techSkills,
