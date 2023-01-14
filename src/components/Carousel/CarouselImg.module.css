@@ -1,0 +1,73 @@
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+}
+
+.mainCard > img {
+  width: 78%;
+  height: 65%;
+  border: 0.5px solid rgba(245, 245, 245, 0.6);
+  border-radius: 0.5rem;
+}
+
+.mainCard > div {
+  width: 78%;
+  height: 26%;
+}
+
+.mainCard > div > h3 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.mainCard > div > div > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 55%;
+  height: 100%;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.mainCard > div > div {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.mainCard > div > div > a {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-content: center;
+  gap: 0.5rem;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+}
+
+.mainCard > div > div > a:hover {
+  cursor: pointer;
+  scale: 1.2;
+  transition: 0.5s;
+}
+
+.mainCard > div > div > a > h3 {
+  font-size: 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+  color: rgba(245, 245, 245, 0.85);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
+}

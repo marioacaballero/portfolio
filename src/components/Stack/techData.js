@@ -8,7 +8,7 @@ import javascript from '../Data/Stack/JavaScript.png';
 import typescript from '../Data/Stack/typescript.png';
 import react from '../Data/Stack/react.png';
 import css from '../Data/Stack/css.png';
-import bootstrap from '../Data/Stack/bootstrap.png';
+import antd from '../Data/Stack/antd.png';
 import html from '../Data/Stack/html.png';
 import leadership from '../Data/Soft/liderazgo.jpg';
 import agileLearning from '../Data/Soft/agilelearning.png';
@@ -19,14 +19,14 @@ import problemSolving from '../Data/Soft/problemsolving.jpg';
 
 export const allStack = [
   { img: html, name: 'HTML 5' },
-  { img: bootstrap, name: 'Bootstrap' },
   { img: css, name: 'CSS' },
+  { img: javascript, name: 'JavaScript' },
   { img: react, name: 'React' },
   { img: redux, name: 'Redux' },
-  { img: typescript, name: 'Typescript' },
-  { img: javascript, name: 'JavaScript' },
-  { img: node, name: 'NodeJs' },
+  { img: antd, name: 'Ant Design' },
   { img: git, name: 'Git' },
+  { img: typescript, name: 'Typescript' },
+  { img: node, name: 'NodeJs' },
   { img: express, name: 'ExpressJs' },
   { img: sequelize, name: 'Sequelize' },
   { img: postgres, name: 'PostgreSQL' },

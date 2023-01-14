@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import React from 'react';
 import style from './Stack.module.css';
 import { allStack, allSoft } from './techData';
