@@ -5,7 +5,7 @@ import TechImgs from './TechImgs/TechImgs';
 
 function Stack() {
   return (
-    <div className={style.mainStack}>
+    <div id="skills" className={style.mainStack}>
       <h2>-- My Skills --</h2>
       <section>
         <div>

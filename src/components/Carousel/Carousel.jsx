@@ -39,7 +39,7 @@ function CarouselProjects({ items }) {
       key={item.key}
     >
       <CarouselImg item={item} />
-      <CarouselCaption />
+      <CarouselCaption captionText="" />
     </CarouselItem>
   ));
 
