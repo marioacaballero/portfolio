@@ -7,11 +7,11 @@ function NavBar() {
     <div className={style.mainNavBar}>
       <h2>Mario Caballero</h2>
       <section>
-        <a href="/#home">Start</a>
-        <a href="/#about">About</a>
-        <a href="/#skills">Skills</a>
-        <a href="/#projects">Projects</a>
-        <a href="/#contact">Contact</a>
+        <a href="/portfolio/#home">Start</a>
+        <a href="/portfolio/#about">About</a>
+        <a href="/portfolio/#skills">Skills</a>
+        <a href="/portfolio/#projects">Projects</a>
+        <a href="/portfolio/#contact">Contact</a>
       </section>
       <div>
         <a
