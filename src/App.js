@@ -12,12 +12,12 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/portfolio/" element={<Home />} />
-        <Route path="/portfolio/galaxy" element={<Galaxy />} />
-        <Route path="/portfolio/helix" element={<Helix />} />
-        <Route path="/portfolio/pillars" element={<Pillars />} />
-        <Route path="/portfolio/ngc6302" element={<Ngc6302 />} />
-        <Route path="/portfolio/crab" element={<Crab />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/galaxy" element={<Galaxy />} />
+        <Route path="/helix" element={<Helix />} />
+        <Route path="/pillars" element={<Pillars />} />
+        <Route path="/ngc6302" element={<Ngc6302 />} />
+        <Route path="/crab" element={<Crab />} />
       </Routes>
     </div>
   );
