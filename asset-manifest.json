@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8413f7ab.css",
-    "main.js": "/portfolio/static/js/main.eb0944fa.js",
+    "main.css": "/portfolio/static/css/main.0841e254.css",
+    "main.js": "/portfolio/static/js/main.2166debf.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
     "static/media/PokeFRV.gif": "/portfolio/static/media/PokeFRV.94b7a211b93718078830.gif",
+    "static/media/galaxy.jpg": "/portfolio/static/media/galaxy.556c6f999a745602e62a.jpg",
+    "static/media/galaxy2.jpg": "/portfolio/static/media/galaxy2.43d72e51a394ade9e73a.jpg",
     "static/media/pilares-v2.jpg": "/portfolio/static/media/pilares-v2.d207f221ac80519aed79.jpg",
+    "static/media/bigbang.jpg": "/portfolio/static/media/bigbang.cf70cf206068f11233a0.jpg",
+    "static/media/galaxies3.jpeg": "/portfolio/static/media/galaxies3.dd3056a7ad7d6854d128.jpeg",
     "static/media/react.png": "/portfolio/static/media/react.7a897455605983fd63ec.png",
     "static/media/nebulosa-ngc-6302-v2.jpg": "/portfolio/static/media/nebulosa-ngc-6302-v2.dbf556f44a6f3eaf5783.jpg",
     "static/media/galaxy1.jpg": "/portfolio/static/media/galaxy1.7e10ca4f4cfaa745b53f.jpg",
@@ -22,12 +26,12 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.f99dcd15458d9f74b2fa.png",
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "index.html": "/portfolio/index.html",
-    "main.8413f7ab.css.map": "/portfolio/static/css/main.8413f7ab.css.map",
-    "main.eb0944fa.js.map": "/portfolio/static/js/main.eb0944fa.js.map",
+    "main.0841e254.css.map": "/portfolio/static/css/main.0841e254.css.map",
+    "main.2166debf.js.map": "/portfolio/static/js/main.2166debf.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8413f7ab.css",
-    "static/js/main.eb0944fa.js"
+    "static/css/main.0841e254.css",
+    "static/js/main.2166debf.js"
   ]
 }
