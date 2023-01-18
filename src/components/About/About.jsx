@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
 import style from './About.module.css';
-import profile from '../Data/Imgs/galaxy1.jpg';
+import profile from '../Data/ImageComponents/Galaxy/galaxy1.jpg';
 
 function About() {
   return (
