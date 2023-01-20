@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4ee95306.css",
-    "main.js": "/portfolio/static/js/main.8ed35042.js",
+    "main.css": "/portfolio/static/css/main.6bc9b73a.css",
+    "main.js": "/portfolio/static/js/main.b8ddd2a2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
     "static/media/PokeFRV.gif": "/portfolio/static/media/PokeFRV.94b7a211b93718078830.gif",
     "static/media/pillars1.jpg": "/portfolio/static/media/pillars1.4b4a29aba242f2bfed36.jpg",
+    "static/media/crab.png": "/portfolio/static/media/crab.77696dd641f1e40d1204.png",
     "static/media/galaxy.jpg": "/portfolio/static/media/galaxy.556c6f999a745602e62a.jpg",
     "static/media/galaxy2.jpg": "/portfolio/static/media/galaxy2.43d72e51a394ade9e73a.jpg",
     "static/media/pilares-v2.jpg": "/portfolio/static/media/pilares-v2.d207f221ac80519aed79.jpg",
@@ -14,6 +15,7 @@
     "static/media/helix2.jpg": "/portfolio/static/media/helix2.8f1f5ee2767f1b90314a.jpg",
     "static/media/helix4.jpg": "/portfolio/static/media/helix4.a35ddbc3196682d213ad.jpg",
     "static/media/react.png": "/portfolio/static/media/react.7a897455605983fd63ec.png",
+    "static/media/crab2.jpg": "/portfolio/static/media/crab2.0d1d604a56d9e745fb26.jpg",
     "static/media/pillars.jpg": "/portfolio/static/media/pillars.ff0e545e73197c5b98e4.jpg",
     "static/media/helix6.jpg": "/portfolio/static/media/helix6.c06a84967bac84db525c.jpg",
     "static/media/nebulosa-ngc-6302-v2.jpg": "/portfolio/static/media/nebulosa-ngc-6302-v2.dbf556f44a6f3eaf5783.jpg",
@@ -21,6 +23,7 @@
     "static/media/helix5.jpg": "/portfolio/static/media/helix5.d49b3382c208b5acc8a5.jpg",
     "static/media/galaxy1.jpg": "/portfolio/static/media/galaxy1.7e10ca4f4cfaa745b53f.jpg",
     "static/media/pillars2.jpg": "/portfolio/static/media/pillars2.abd56c298252591bf7bc.jpg",
+    "static/media/crab3.jpg": "/portfolio/static/media/crab3.a63fbc153c24ca6e68b0.jpg",
     "static/media/nebulosacangrejo.jpg": "/portfolio/static/media/nebulosacangrejo.0d98cef7d7e3c04e8ff9.jpg",
     "static/media/nebulosa-helice-v2.jpg": "/portfolio/static/media/nebulosa-helice-v2.6102ba103a2461b4d6be.jpg",
     "static/media/teamwork.jpg": "/portfolio/static/media/teamwork.aacbe330278bda833492.jpg",
@@ -34,13 +37,14 @@
     "static/media/expressjs.png": "/portfolio/static/media/expressjs.b44f5a4b0ab040328aac.png",
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.f99dcd15458d9f74b2fa.png",
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
+    "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
-    "main.4ee95306.css.map": "/portfolio/static/css/main.4ee95306.css.map",
-    "main.8ed35042.js.map": "/portfolio/static/js/main.8ed35042.js.map",
+    "main.6bc9b73a.css.map": "/portfolio/static/css/main.6bc9b73a.css.map",
+    "main.b8ddd2a2.js.map": "/portfolio/static/js/main.b8ddd2a2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ee95306.css",
-    "static/js/main.8ed35042.js"
+    "static/css/main.6bc9b73a.css",
+    "static/js/main.b8ddd2a2.js"
   ]
 }
