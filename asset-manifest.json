@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a239f88.css",
-    "main.js": "/portfolio/static/js/main.61fa3a87.js",
+    "main.css": "/portfolio/static/css/main.4ee95306.css",
+    "main.js": "/portfolio/static/js/main.8ed35042.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
     "static/media/PokeFRV.gif": "/portfolio/static/media/PokeFRV.94b7a211b93718078830.gif",
@@ -11,10 +11,14 @@
     "static/media/pilares-v2.jpg": "/portfolio/static/media/pilares-v2.d207f221ac80519aed79.jpg",
     "static/media/bigbang.jpg": "/portfolio/static/media/bigbang.cf70cf206068f11233a0.jpg",
     "static/media/galaxies3.jpeg": "/portfolio/static/media/galaxies3.dd3056a7ad7d6854d128.jpeg",
+    "static/media/helix2.jpg": "/portfolio/static/media/helix2.8f1f5ee2767f1b90314a.jpg",
+    "static/media/helix4.jpg": "/portfolio/static/media/helix4.a35ddbc3196682d213ad.jpg",
     "static/media/react.png": "/portfolio/static/media/react.7a897455605983fd63ec.png",
     "static/media/pillars.jpg": "/portfolio/static/media/pillars.ff0e545e73197c5b98e4.jpg",
+    "static/media/helix6.jpg": "/portfolio/static/media/helix6.c06a84967bac84db525c.jpg",
     "static/media/nebulosa-ngc-6302-v2.jpg": "/portfolio/static/media/nebulosa-ngc-6302-v2.dbf556f44a6f3eaf5783.jpg",
     "static/media/pillars3.jpg": "/portfolio/static/media/pillars3.25604af5613d8c247bd4.jpg",
+    "static/media/helix5.jpg": "/portfolio/static/media/helix5.d49b3382c208b5acc8a5.jpg",
     "static/media/galaxy1.jpg": "/portfolio/static/media/galaxy1.7e10ca4f4cfaa745b53f.jpg",
     "static/media/pillars2.jpg": "/portfolio/static/media/pillars2.abd56c298252591bf7bc.jpg",
     "static/media/nebulosacangrejo.jpg": "/portfolio/static/media/nebulosacangrejo.0d98cef7d7e3c04e8ff9.jpg",
@@ -31,12 +35,12 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.f99dcd15458d9f74b2fa.png",
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "index.html": "/portfolio/index.html",
-    "main.7a239f88.css.map": "/portfolio/static/css/main.7a239f88.css.map",
-    "main.61fa3a87.js.map": "/portfolio/static/js/main.61fa3a87.js.map",
+    "main.4ee95306.css.map": "/portfolio/static/css/main.4ee95306.css.map",
+    "main.8ed35042.js.map": "/portfolio/static/js/main.8ed35042.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a239f88.css",
-    "static/js/main.61fa3a87.js"
+    "static/css/main.4ee95306.css",
+    "static/js/main.8ed35042.js"
   ]
 }
