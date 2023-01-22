@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { GiFallingStar } from 'react-icons/gi';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
 import style from './Contact.module.css';
@@ -69,6 +70,10 @@ function Contact() {
 
   return (
     <div id="contact" className={style.mainContact}>
+      <a href="/portfolio/ngc6302" className={style.btn}>
+        <GiFallingStar className={style.ico} />
+        Info
+      </a>
       <h2>-- Contact Me --</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input

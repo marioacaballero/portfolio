@@ -1,4 +1,5 @@
 import React from 'react';
+import { GiFallingStar } from 'react-icons/gi';
 import style from './Stack.module.css';
 import { allStack, allSoft } from './techData';
 import TechImgs from './TechImgs/TechImgs';
@@ -6,6 +7,10 @@ import TechImgs from './TechImgs/TechImgs';
 function Stack() {
   return (
     <div id="skills" className={style.mainStack}>
+      <a href="/portfolio/helix" className={style.btn}>
+        <GiFallingStar className={style.ico} />
+        Info
+      </a>
       <h2>-- My Skills --</h2>
       <section>
         <div>
