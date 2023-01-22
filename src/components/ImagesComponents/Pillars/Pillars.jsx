@@ -1,4 +1,5 @@
 import React from 'react';
+import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import nebula from '../../Data/ImageComponents/Pillars/pillars2.jpg';
 import nebula2 from '../../Data/ImageComponents/Pillars/nebula.jpg';
 import pillars1 from '../../Data/ImageComponents/Pillars/pillars.jpg';
@@ -8,6 +9,20 @@ import style from './Pillars.module.css';
 function Pillars() {
   return (
     <div className={style.mainPillars}>
+      <button
+        type="button"
+        onClick={() => window.history.back()}
+        className={style.back}
+      >
+        <TiArrowBackOutline />
+      </button>
+      <button
+        type="button"
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.toTop}
+      >
+        <TiArrowUpOutline />
+      </button>
       <h2>Start with &rdquo;nebulas&rdquo;</h2>
       <img alt="nebula" src={nebula} />
       <div>

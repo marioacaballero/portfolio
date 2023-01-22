@@ -81,3 +81,36 @@
 .mainNgc > p > a:hover {
   color: rgb(0, 98, 255);
 }
+
+.back,
+.toTop {
+  position: fixed;
+  background: none;
+  border: 1px dashed white;
+  border-radius: 9999px;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.back {
+  top: 2rem;
+  left: 1.5rem;
+}
+
+.toTop {
+  bottom: 2rem;
+  right: 1.5rem;
+}
+
+.back:hover,
+.toTop:hover {
+  color: rgb(0, 98, 255);
+  border-color: rgb(0, 98, 255);
+  scale: 1.1;
+  transition: 1s;
+}

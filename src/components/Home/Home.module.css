@@ -5,3 +5,27 @@
   justify-content: center;
   width: 100%;
 }
+
+.toTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 1.5rem;
+  background: none;
+  border: 1px dashed rgba(244, 228, 9, 0.85);
+  border-radius: 9999px;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(244, 228, 9, 0.85);
+  font-size: 2.5rem;
+  z-index: 1;
+}
+
+.toTop:hover {
+  color: rgb(0, 98, 255);
+  border-color: rgb(0, 98, 255);
+  scale: 1.1;
+  transition: 1s;
+}

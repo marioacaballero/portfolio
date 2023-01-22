@@ -1,4 +1,5 @@
 import React from 'react';
+import { TiArrowUpOutline } from 'react-icons/ti';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
@@ -11,6 +12,13 @@ import style from './Home.module.css';
 function Home() {
   return (
     <div className={style.mainHome}>
+      <button
+        type="button"
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.toTop}
+      >
+        <TiArrowUpOutline />
+      </button>
       <NavBar />
       <Start />
       <About />

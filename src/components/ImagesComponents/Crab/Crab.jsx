@@ -1,4 +1,5 @@
 import React from 'react';
+import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import crab1 from '../../Data/ImageComponents/Crab/crab1.jpeg';
 import crab2 from '../../Data/ImageComponents/Crab/crab2.jpg';
 import crab3 from '../../Data/ImageComponents/Crab/crab3.jpg';
@@ -8,6 +9,20 @@ import style from './Crab.module.css';
 function Crab() {
   return (
     <div className={style.mainCrab}>
+      <button
+        type="button"
+        onClick={() => window.history.back()}
+        className={style.back}
+      >
+        <TiArrowBackOutline />
+      </button>
+      <button
+        type="button"
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.toTop}
+      >
+        <TiArrowUpOutline />
+      </button>
       <h2>Did you see the Crab?</h2>
       <img alt="crab1" src={crab1} />
       <div>

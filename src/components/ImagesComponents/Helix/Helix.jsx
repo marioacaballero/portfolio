@@ -1,4 +1,5 @@
 import React from 'react';
+import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import helix from '../../Data/ImageComponents/Helix/helix1.jpeg';
 import helix2 from '../../Data/ImageComponents/Helix/helix4.jpg';
 import helix3 from '../../Data/ImageComponents/Helix/helix5.jpg';
@@ -8,6 +9,20 @@ import style from './Helix.module.css';
 function Helix() {
   return (
     <div className={style.mainHelix}>
+      <button
+        type="button"
+        onClick={() => window.history.back()}
+        className={style.back}
+      >
+        <TiArrowBackOutline />
+      </button>
+      <button
+        type="button"
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.toTop}
+      >
+        <TiArrowUpOutline />
+      </button>
       <h2>Helix what?</h2>
       <img alt="helix" src={helix} />
       <div>

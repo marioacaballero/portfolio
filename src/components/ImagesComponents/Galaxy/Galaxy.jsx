@@ -1,4 +1,5 @@
 import React from 'react';
+import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import galaxy1 from '../../Data/ImageComponents/Galaxy/galaxy1.jpg';
 import galaxy2 from '../../Data/ImageComponents/Galaxy/galaxy2.jpg';
 import bigbang from '../../Data/ImageComponents/Galaxy/bigbang.jpg';
@@ -8,6 +9,20 @@ import style from './Galaxy.module.css';
 function Galaxy() {
   return (
     <div className={style.mainGalaxy}>
+      <button
+        type="button"
+        onClick={() => window.history.back()}
+        className={style.back}
+      >
+        <TiArrowBackOutline />
+      </button>
+      <button
+        type="button"
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.toTop}
+      >
+        <TiArrowUpOutline />
+      </button>
       <h2>What? A Galaxy?</h2>
       <img alt="galaxy" src={galaxy1} />
       <div>

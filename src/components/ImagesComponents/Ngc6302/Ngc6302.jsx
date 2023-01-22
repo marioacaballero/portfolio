@@ -1,4 +1,5 @@
 import React from 'react';
+import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import bug1 from '../../Data/ImageComponents/Butterfly/butterfly1.jpeg';
 import bug2 from '../../Data/ImageComponents/Butterfly/butterfly2.jpg';
 import bug3 from '../../Data/ImageComponents/Butterfly/butterfly3.jpg';
@@ -8,6 +9,20 @@ import style from './Ngc6302.module.css';
 function Ngc6302() {
   return (
     <div className={style.mainNgc}>
+      <button
+        type="button"
+        onClick={() => window.history.back()}
+        className={style.back}
+      >
+        <TiArrowBackOutline />
+      </button>
+      <button
+        type="button"
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.toTop}
+      >
+        <TiArrowUpOutline />
+      </button>
       <h2>Cool, a Butterfly!</h2>
       <img alt="bug1" src={bug1} />
       <div>
