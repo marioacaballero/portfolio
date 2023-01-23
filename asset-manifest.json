@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba8ee8bd.css",
-    "main.js": "/portfolio/static/js/main.694d92ab.js",
+    "main.css": "/portfolio/static/css/main.6484943c.css",
+    "main.js": "/portfolio/static/js/main.19f1c158.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
     "static/media/PokeFRV.gif": "/portfolio/static/media/PokeFRV.94b7a211b93718078830.gif",
@@ -20,6 +20,7 @@
     "static/media/pillars.jpg": "/portfolio/static/media/pillars.ff0e545e73197c5b98e4.jpg",
     "static/media/helix6.jpg": "/portfolio/static/media/helix6.c06a84967bac84db525c.jpg",
     "static/media/nebulosa-ngc-6302-v2.jpg": "/portfolio/static/media/nebulosa-ngc-6302-v2.dbf556f44a6f3eaf5783.jpg",
+    "static/media/me.jpg": "/portfolio/static/media/me.d31cfc89134c2204b2ad.jpg",
     "static/media/pillars3.jpg": "/portfolio/static/media/pillars3.25604af5613d8c247bd4.jpg",
     "static/media/butterfly.jpg": "/portfolio/static/media/butterfly.f32ab16fb9f9153c9b64.jpg",
     "static/media/helix5.jpg": "/portfolio/static/media/helix5.d49b3382c208b5acc8a5.jpg",
@@ -44,12 +45,12 @@
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
-    "main.ba8ee8bd.css.map": "/portfolio/static/css/main.ba8ee8bd.css.map",
-    "main.694d92ab.js.map": "/portfolio/static/js/main.694d92ab.js.map",
+    "main.6484943c.css.map": "/portfolio/static/css/main.6484943c.css.map",
+    "main.19f1c158.js.map": "/portfolio/static/js/main.19f1c158.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba8ee8bd.css",
-    "static/js/main.694d92ab.js"
+    "static/css/main.6484943c.css",
+    "static/js/main.19f1c158.js"
   ]
 }
