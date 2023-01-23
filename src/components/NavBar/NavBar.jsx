@@ -21,6 +21,9 @@ function NavBar({
             color: `${startView ? 'rgb(0, 98, 255)' : ''}`,
             fontWeight: `${startView ? 'bold' : ''}`,
             scale: `${startView ? '1.2' : ''}`,
+            borderBottom: `${
+              startView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
+            }`,
           }}
         >
           Start
@@ -31,6 +34,9 @@ function NavBar({
             color: `${aboutView ? 'rgb(0, 98, 255)' : ''}`,
             fontWeight: `${aboutView ? 'bold' : ''}`,
             scale: `${aboutView ? '1.2' : ''}`,
+            borderBottom: `${
+              aboutView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
+            }`,
           }}
         >
           About
@@ -41,6 +47,9 @@ function NavBar({
             color: `${skillsView ? 'rgb(0, 98, 255)' : ''}`,
             fontWeight: `${skillsView ? 'bold' : ''}`,
             scale: `${skillsView ? '1.2' : ''}`,
+            borderBottom: `${
+              skillsView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
+            }`,
           }}
         >
           Skills
@@ -51,6 +60,9 @@ function NavBar({
             color: `${projectsView ? 'rgb(0, 98, 255)' : ''}`,
             fontWeight: `${projectsView ? 'bold' : ''}`,
             scale: `${projectsView ? '1.2' : ''}`,
+            borderBottom: `${
+              projectsView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
+            }`,
           }}
         >
           Projects
@@ -61,6 +73,9 @@ function NavBar({
             color: `${contactView ? 'rgb(0, 98, 255)' : ''}`,
             fontWeight: `${contactView ? 'bold' : ''}`,
             scale: `${contactView ? '1.2' : ''}`,
+            borderBottom: `${
+              contactView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
+            }`,
           }}
         >
           Contact

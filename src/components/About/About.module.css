@@ -42,19 +42,27 @@
   margin-top: 1rem;
 }
 
-.mainAbout > section > p,
+.mainAbout > section > section,
 .mainAbout > section > img {
   width: 50%;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.75);
   border: 0.5px solid rgba(245, 245, 245, 0.6);
   border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
-.mainAbout > section > p {
+.mainAbout > section > section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.mainAbout > section > section > p {
   text-align: justify;
   font-size: 1.35rem;
   font-weight: bold;
+  line-height: 1.8;
 }
 
 .btn {
