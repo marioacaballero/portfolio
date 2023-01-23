@@ -1,11 +1,13 @@
+/* eslint react/prop-types: 0 */
+
 import React from 'react';
 import { GiFallingStar } from 'react-icons/gi';
 import style from './Start.module.css';
 
-function Start() {
+function Start({ refStart }) {
   return (
     <div id="home" className={style.mainStart}>
-      <header>
+      <header ref={refStart}>
         <p>Hello World! Welcome, I am</p>
       </header>
       <h1>Mario Alberto Caballero</h1>

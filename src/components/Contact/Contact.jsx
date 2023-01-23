@@ -1,3 +1,5 @@
+/* eslint react/prop-types: 0 */
+
 import React, { useRef, useState } from 'react';
 import { GiFallingStar } from 'react-icons/gi';
 import emailjs from '@emailjs/browser';
@@ -5,7 +7,7 @@ import swal from 'sweetalert';
 import style from './Contact.module.css';
 import { validator } from './validators';
 
-function Contact() {
+function Contact({ refContact }) {
   const form = useRef();
   const initialState = {
     name: '',
@@ -77,6 +79,7 @@ function Contact() {
       <h2>-- Contact Me --</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input
+          ref={refContact}
           type="text"
           name="name"
           placeholder="Name"
