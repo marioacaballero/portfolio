@@ -20,10 +20,11 @@
   font-size: 3rem;
   letter-spacing: 1px;
   padding-left: 1rem;
-  width: 30%;
+  width: 35%;
   height: 100%;
   margin-bottom: 0;
   color: rgba(239, 35, 60, 0.85);
+  font-weight: bold;
 }
 
 .mainNavBar > section {
