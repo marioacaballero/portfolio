@@ -49,7 +49,10 @@
 
 .mainNavBar > section > a:hover {
   cursor: pointer;
+  font-weight: bold;
   color: rgb(0, 98, 255);
+  scale: 1.2;
+  transition: 0.3s ease-out all;
 }
 
 .icon,
