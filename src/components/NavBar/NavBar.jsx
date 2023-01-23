@@ -1,18 +1,16 @@
-/* eslint func-names:0 */
+/* eslint react/prop-types: 0 */
 
-import React, { useState } from 'react';
+import React from 'react';
 import { FaGithubSquare, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import style from './NavBar.module.css';
 
-function NavBar() {
-  const [scrollY, setScrolly] = useState(0);
-
-  window.onscroll = function () {
-    const y = window.scrollY;
-    setScrolly(y);
-  };
-  console.log(scrollY);
-
+function NavBar({
+  startView,
+  aboutView,
+  skillsView,
+  projectsView,
+  contactView,
+}) {
   return (
     <div className={style.mainNavBar}>
       <h2>Mario Caballero</h2>
@@ -20,9 +18,9 @@ function NavBar() {
         <a
           href="/portfolio/#home"
           style={{
-            color: `${scrollY < 450 ? 'rgb(0, 98, 255)' : ''}`,
-            fontWeight: `${scrollY < 450 ? 'bold' : ''}`,
-            scale: `${scrollY < 450 ? '1.2' : ''}`,
+            color: `${startView ? 'rgb(0, 98, 255)' : ''}`,
+            fontWeight: `${startView ? 'bold' : ''}`,
+            scale: `${startView ? '1.2' : ''}`,
           }}
         >
           Start
@@ -30,11 +28,9 @@ function NavBar() {
         <a
           href="/portfolio/#about"
           style={{
-            color: `${
-              scrollY > 450 && scrollY < 1000 ? 'rgb(0, 98, 255)' : ''
-            }`,
-            fontWeight: `${scrollY > 450 && scrollY < 1000 ? 'bold' : ''}`,
-            scale: `${scrollY > 450 && scrollY < 1000 ? '1.2' : ''}`,
+            color: `${aboutView ? 'rgb(0, 98, 255)' : ''}`,
+            fontWeight: `${aboutView ? 'bold' : ''}`,
+            scale: `${aboutView ? '1.2' : ''}`,
           }}
         >
           About
@@ -42,11 +38,9 @@ function NavBar() {
         <a
           href="/portfolio/#skills"
           style={{
-            color: `${
-              scrollY > 1000 && scrollY < 1600 ? 'rgb(0, 98, 255)' : ''
-            }`,
-            fontWeight: `${scrollY > 1000 && scrollY < 1600 ? 'bold' : ''}`,
-            scale: `${scrollY > 1000 && scrollY < 1600 ? '1.2' : ''}`,
+            color: `${skillsView ? 'rgb(0, 98, 255)' : ''}`,
+            fontWeight: `${skillsView ? 'bold' : ''}`,
+            scale: `${skillsView ? '1.2' : ''}`,
           }}
         >
           Skills
@@ -54,11 +48,9 @@ function NavBar() {
         <a
           href="/portfolio/#projects"
           style={{
-            color: `${
-              scrollY > 1600 && scrollY < 2200 ? 'rgb(0, 98, 255)' : ''
-            }`,
-            fontWeight: `${scrollY > 1600 && scrollY < 2200 ? 'bold' : ''}`,
-            scale: `${scrollY > 1600 && scrollY < 2200 ? '1.2' : ''}`,
+            color: `${projectsView ? 'rgb(0, 98, 255)' : ''}`,
+            fontWeight: `${projectsView ? 'bold' : ''}`,
+            scale: `${projectsView ? '1.2' : ''}`,
           }}
         >
           Projects
@@ -66,9 +58,9 @@ function NavBar() {
         <a
           href="/portfolio/#contact"
           style={{
-            color: `${scrollY > 2200 ? 'rgb(0, 98, 255)' : ''}`,
-            fontWeight: `${scrollY > 2200 ? 'bold' : ''}`,
-            scale: `${scrollY > 2200 ? '1.2' : ''}`,
+            color: `${contactView ? 'rgb(0, 98, 255)' : ''}`,
+            fontWeight: `${contactView ? 'bold' : ''}`,
+            scale: `${contactView ? '1.2' : ''}`,
           }}
         >
           Contact

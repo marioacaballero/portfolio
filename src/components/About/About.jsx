@@ -1,17 +1,19 @@
 /* eslint-disable linebreak-style */
+/* eslint react/prop-types: 0 */
+
 import React from 'react';
 import { GiFallingStar } from 'react-icons/gi';
 import style from './About.module.css';
 import profile from '../Data/ImageComponents/Galaxy/galaxy1.jpg';
 
-function About() {
+function About({ refAbout }) {
   return (
     <main id="about" className={style.mainAbout}>
       <a href="/portfolio/pillars" className={style.btn}>
         <GiFallingStar className={style.ico} />
         Info
       </a>
-      <h2>-- About Me --</h2>
+      <h2 ref={refAbout}>-- About Me --</h2>
       <section>
         <img alt="profile" src={profile} />
         <p>
