@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf2f0ba4.css",
-    "main.js": "/portfolio/static/js/main.ae367ac4.js",
+    "main.css": "/portfolio/static/css/main.ba8ee8bd.css",
+    "main.js": "/portfolio/static/js/main.af5421c3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
     "static/media/PokeFRV.gif": "/portfolio/static/media/PokeFRV.94b7a211b93718078830.gif",
@@ -44,12 +44,12 @@
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
-    "main.bf2f0ba4.css.map": "/portfolio/static/css/main.bf2f0ba4.css.map",
-    "main.ae367ac4.js.map": "/portfolio/static/js/main.ae367ac4.js.map",
+    "main.ba8ee8bd.css.map": "/portfolio/static/css/main.ba8ee8bd.css.map",
+    "main.af5421c3.js.map": "/portfolio/static/js/main.af5421c3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf2f0ba4.css",
-    "static/js/main.ae367ac4.js"
+    "static/css/main.ba8ee8bd.css",
+    "static/js/main.af5421c3.js"
   ]
 }
