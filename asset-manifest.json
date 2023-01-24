@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7a478a77.css",
+    "main.css": "/portfolio/static/css/main.53dcccd5.css",
     "main.js": "/portfolio/static/js/main.34bfdd14.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
@@ -26,6 +26,7 @@
     "static/media/butterfly.jpg": "/portfolio/static/media/butterfly.f32ab16fb9f9153c9b64.jpg",
     "static/media/helix5.jpg": "/portfolio/static/media/helix5.d49b3382c208b5acc8a5.jpg",
     "static/media/butterfly2.jpg": "/portfolio/static/media/butterfly2.98255f31889419b3ae38.jpg",
+    "static/media/pilares.jpg": "/portfolio/static/media/pilares.293126cd022ad85fed0f.jpg",
     "static/media/galaxy1.jpg": "/portfolio/static/media/galaxy1.7e10ca4f4cfaa745b53f.jpg",
     "static/media/butterfly3.jpg": "/portfolio/static/media/butterfly3.d908bdaaa0451887bedd.jpg",
     "static/media/pillars2.jpg": "/portfolio/static/media/pillars2.abd56c298252591bf7bc.jpg",
@@ -46,12 +47,12 @@
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
-    "main.7a478a77.css.map": "/portfolio/static/css/main.7a478a77.css.map",
+    "main.53dcccd5.css.map": "/portfolio/static/css/main.53dcccd5.css.map",
     "main.34bfdd14.js.map": "/portfolio/static/js/main.34bfdd14.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a478a77.css",
+    "static/css/main.53dcccd5.css",
     "static/js/main.34bfdd14.js"
   ]
 }
