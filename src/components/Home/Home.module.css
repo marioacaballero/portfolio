@@ -29,3 +29,10 @@
   scale: 1.1;
   transition: 1s;
 }
+
+@media only screen and (max-width: 600px) {
+  .toTop {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

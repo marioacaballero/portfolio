@@ -71,7 +71,39 @@
 /*------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
+  .mainStart {
+    background-image: url('../Data/Imgs/galaxy1.png');
+  }
+
+  .mainStart > header > p {
+    margin-top: 5rem;
+    font-size: 1.75rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  .mainStart > header {
+    display: flex;
+    justify-content: center;
+  }
+
   .mainStart > h1 {
+    font-size: 3.3rem;
+    width: 80%;
+    margin-bottom: 4rem;
+  }
+
+  .mainStart > h3 {
+    width: 80%;
     font-size: 2rem;
+    text-align: center;
+  }
+
+  .btn {
+    text-indent: -999px;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 9999px;
+    left: 2rem;
   }
 }
