@@ -95,3 +95,43 @@
   scale: 1.1;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainStack {
+    background-image: url('../Data/Imgs/nebulosa-helice.jpg');
+  }
+
+  .mainStack > h2 {
+    font-size: 2.25rem;
+    margin-top: 7rem;
+  }
+
+  .mainStack > section {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .mainStack > section > div {
+    width: 95%;
+  }
+
+  .techSkills,
+  .softSkills {
+    width: 90%;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn {
+    text-indent: -999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    left: 0.5rem;
+    top: 4.5rem;
+  }
+
+  .ico {
+    font-size: 1.5rem;
+  }
+}
