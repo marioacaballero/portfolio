@@ -101,9 +101,14 @@
 
   .btn {
     text-indent: -999px;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 9999px;
-    left: 2rem;
+    left: 0.5rem;
+    top: 4.5rem;
+  }
+
+  .ico {
+    font-size: 1.5rem;
   }
 }

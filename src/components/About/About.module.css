@@ -93,3 +93,50 @@
   scale: 1.1;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainAbout {
+    background-image: url('../Data/Imgs/pilares.jpg');
+  }
+
+  .mainAbout > h2 {
+    font-size: 2.25rem;
+    margin-top: 7rem;
+  }
+
+  .mainAbout > section {
+    flex-direction: column;
+  }
+
+  .mainAbout > section > img {
+    width: 95%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .mainAbout > section > section {
+    width: 95%;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    padding-top: 1.5rem;
+  }
+
+  .mainAbout > section > section > p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .btn {
+    text-indent: -999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    left: 0.5rem;
+    top: 4.5rem;
+  }
+
+  .ico {
+    font-size: 1.5rem;
+  }
+}
