@@ -1,7 +1,8 @@
 /* eslint react/prop-types: 0 */
 
-import React from 'react';
+import React, { useState } from 'react';
 import { FaGithubSquare, FaLinkedin, FaFileDownload } from 'react-icons/fa';
+import { CgMenuGridO } from 'react-icons/cg';
 import style from './NavBar.module.css';
 
 function NavBar({
@@ -11,10 +12,16 @@ function NavBar({
   projectsView,
   contactView,
 }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className={style.mainNavBar}>
       <h2>Mario Caballero</h2>
-      <section>
+      <section className={isOpen ? style.navItems : style.menu}>
         <a
           href="/portfolio/#home"
           style={{
@@ -25,6 +32,7 @@ function NavBar({
               startView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
             }`,
           }}
+          onClick={() => toggle()}
         >
           Start
         </a>
@@ -38,6 +46,7 @@ function NavBar({
               aboutView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
             }`,
           }}
+          onClick={() => toggle()}
         >
           About
         </a>
@@ -51,6 +60,7 @@ function NavBar({
               skillsView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
             }`,
           }}
+          onClick={() => toggle()}
         >
           Skills
         </a>
@@ -64,6 +74,7 @@ function NavBar({
               projectsView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
             }`,
           }}
+          onClick={() => toggle()}
         >
           Projects
         </a>
@@ -77,6 +88,7 @@ function NavBar({
               contactView ? '4px rgba(245, 245, 245, 0.85) solid' : ''
             }`,
           }}
+          onClick={() => toggle()}
         >
           Contact
         </a>
@@ -104,6 +116,13 @@ function NavBar({
           <FaLinkedin className={style.icon} />
         </a>
       </div>
+      <button
+        type="button"
+        onClick={() => toggle()}
+        className={style.navResponsive}
+      >
+        <CgMenuGridO />
+      </button>
     </div>
   );
 }
