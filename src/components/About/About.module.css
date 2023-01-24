@@ -106,6 +106,7 @@
 
   .mainAbout > section {
     flex-direction: column;
+    width: 90%;
   }
 
   .mainAbout > section > img {
