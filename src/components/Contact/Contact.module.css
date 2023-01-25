@@ -109,3 +109,50 @@
   scale: 1.1;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainContact {
+    background-image: url('../Data/Imgs/nebulosa-ngc-6302.jpg');
+  }
+
+  .mainContact > h2 {
+    font-size: 2.25rem;
+    margin-top: 7rem;
+  }
+
+  .mainContact > form {
+    width: 87.5%;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .mainContact > form > input,
+  .mainContact > form > textarea {
+    width: 80%;
+  }
+
+  .mainContact > form > input {
+    font-size: 1rem;
+  }
+
+  .mainContact > form > textarea {
+    font-size: 0.75rem;
+  }
+
+  .mainContact > form > button {
+    font-size: 1rem;
+  }
+
+  .btn {
+    text-indent: -999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    left: 0.5rem;
+    top: 4.5rem;
+  }
+
+  .ico {
+    font-size: 1.5rem;
+  }
+}
