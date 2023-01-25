@@ -1,6 +1,7 @@
 /* eslint-disable linebreak-style */
 
 import { Route, Routes } from 'react-router-dom';
+
 import Home from './components/Home/Home';
 import Crab from './components/ImagesComponents/Crab/Crab';
 import Galaxy from './components/ImagesComponents/Galaxy/Galaxy';
@@ -12,7 +13,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route exact path="/portfolio/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/galaxy" element={<Galaxy />} />
         <Route path="/helix" element={<Helix />} />
         <Route path="/pillars" element={<Pillars />} />
