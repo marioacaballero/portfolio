@@ -2,17 +2,22 @@
 /* eslint react/prop-types: 0 */
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GiFallingStar } from 'react-icons/gi';
 import style from './About.module.css';
 import profile from '../Data/PersonalData/me.jpg';
 
 function About({ refAbout }) {
+  const goUp = () => {
+    window.scroll(0, 0);
+  };
+
   return (
     <main id="about" className={style.mainAbout}>
-      <a href="/portfolio/pillars" className={style.btn}>
+      <Link to="/pillars" className={style.btn} onClick={() => goUp()}>
         <GiFallingStar className={style.ico} />
         Info
-      </a>
+      </Link>
       <h2>-- About Me --</h2>
       <section>
         <img alt="profile" src={profile} />

@@ -1,6 +1,7 @@
 /* eslint react/prop-types: 0 */
 
 import React, { useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GiFallingStar } from 'react-icons/gi';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
@@ -70,12 +71,16 @@ function Contact({ refContact }) {
     }
   };
 
+  const goUp = () => {
+    window.scroll(0, 0);
+  };
+
   return (
     <div id="contact" className={style.mainContact}>
-      <a href="/portfolio/ngc6302" className={style.btn}>
+      <Link to="/ngc6302" className={style.btn} onClick={() => goUp()}>
         <GiFallingStar className={style.ico} />
         Info
-      </a>
+      </Link>
       <h2>-- Contact Me --</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input
