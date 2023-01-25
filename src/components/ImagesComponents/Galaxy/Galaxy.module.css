@@ -113,3 +113,80 @@
   scale: 1.1;
   transition: 1s;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainGalaxy > h2 {
+    margin-top: 2.5rem;
+  }
+
+  .mainGalaxy > img {
+    width: 90%;
+  }
+
+  .mainGalaxy > div {
+    width: 90%;
+  }
+
+  .mainGalaxy > div > h3 {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 0rem;
+    padding-top: 0rem;
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .mainGalaxy > div > div {
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  .mainGalaxy > div > div > div,
+  .mainGalaxy > div > div > img {
+    width: 85%;
+    margin: auto;
+  }
+
+  .mainGalaxy > div > div > img {
+    margin-bottom: 1rem;
+  }
+
+  .mainGalaxy > div > div > img:hover {
+    scale: 1;
+  }
+
+  .mainGalaxy > div > div > div > p {
+    font-size: 1rem;
+  }
+
+  .mainGalaxy > p {
+    width: 70%;
+    margin-top: 1rem;
+    font-size: 0.65rem;
+    text-align: center;
+  }
+
+  .back,
+  .toTop {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .back {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .toTop {
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .back:hover,
+  .toTop:hover {
+    color: white;
+    border-color: white;
+  }
+}
