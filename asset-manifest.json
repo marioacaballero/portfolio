@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.baf74ef8.css",
-    "main.js": "/portfolio/static/js/main.e011fc9e.js",
+    "main.js": "/portfolio/static/js/main.3a2588d0.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
     "static/media/PokeFRV.gif": "/portfolio/static/media/PokeFRV.94b7a211b93718078830.gif",
@@ -51,11 +51,11 @@
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
     "main.baf74ef8.css.map": "/portfolio/static/css/main.baf74ef8.css.map",
-    "main.e011fc9e.js.map": "/portfolio/static/js/main.e011fc9e.js.map",
+    "main.3a2588d0.js.map": "/portfolio/static/js/main.3a2588d0.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baf74ef8.css",
-    "static/js/main.e011fc9e.js"
+    "static/js/main.3a2588d0.js"
   ]
 }
