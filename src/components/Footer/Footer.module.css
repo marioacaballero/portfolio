@@ -59,3 +59,31 @@
 .icon2 {
   font-size: 2.35rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainFooter {
+    height: 3rem;
+  }
+
+  .mainFooter > h3 {
+    width: 50%;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-left: 0.5rem;
+  }
+
+  .mainFooter > h3 > a {
+    padding-left: 0px;
+  }
+
+  .mainFooter > section {
+    width: 50%;
+  }
+
+  .icon {
+    font-size: 1.45rem;
+  }
+  .icon2 {
+    font-size: 1.35rem;
+  }
+}
