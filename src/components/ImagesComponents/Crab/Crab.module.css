@@ -163,10 +163,16 @@
   }
 
   .mainCrab > p {
-    width: 70%;
+    width: 75%;
     margin-top: 1rem;
     font-size: 0.65rem;
     text-align: center;
+    height: 4rem;
+  }
+
+  .mainCrab > p > a {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
   }
 
   .back,
