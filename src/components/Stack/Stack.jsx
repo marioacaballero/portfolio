@@ -2,17 +2,22 @@
 
 import React from 'react';
 import { GiFallingStar } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
 import style from './Stack.module.css';
 import { allStack, allSoft } from './techData';
 import TechImgs from './TechImgs/TechImgs';
 
 function Stack({ refSkills }) {
+  const goUp = () => {
+    window.scroll(0, 0);
+  };
+
   return (
     <div id="skills" className={style.mainStack}>
-      <a href="/portfolio/helix" className={style.btn}>
+      <Link to="/helix" className={style.btn} onClick={() => goUp()}>
         <GiFallingStar className={style.ico} />
         Info
-      </a>
+      </Link>
       <h2 ref={refSkills}>-- My Skills --</h2>
       <section>
         <div>
