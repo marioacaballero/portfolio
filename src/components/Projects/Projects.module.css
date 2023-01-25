@@ -61,3 +61,38 @@
   scale: 1.1;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+  .mainProjects {
+    background-image: url('../Data/Imgs/nebulosaCangrejo.png');
+  }
+
+  .mainProjects > h2 {
+    font-size: 2.25rem;
+    margin-top: 7rem;
+  }
+
+  .mainProjects > section {
+    width: 87.5%;
+    margin-bottom: 2rem;
+    height: fit-content;
+  }
+
+  .mainProjects > section > div {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+
+  .btn {
+    text-indent: -999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    left: 0.5rem;
+    top: 4.5rem;
+  }
+
+  .ico {
+    font-size: 1.5rem;
+  }
+}

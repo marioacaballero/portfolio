@@ -71,3 +71,53 @@
   color: rgba(245, 245, 245, 0.85);
   -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
 }
+
+@media only screen and (max-width: 600px) {
+  .mainCard {
+    height: 550px;
+  }
+
+  .mainCard > img {
+    height: 50%;
+  }
+
+  .mainCard > div > h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.75rem;
+    font-size: 1.25rem;
+    letter-spacing: 0.25px;
+  }
+
+  .mainCard > div > div {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .mainCard > div > div > p {
+    width: 100%;
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+    text-align: justify;
+    height: 4rem;
+  }
+
+  .mainCard > div > div > a {
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+  }
+
+  .mainCard > div > div > a:hover {
+    scale: 1;
+  }
+
+  .mainCard > div > div > a > h3 {
+    font-size: 1rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+}
