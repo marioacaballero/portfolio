@@ -67,9 +67,9 @@
 
   .mainFooter > h3 {
     width: 50%;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     text-align: center;
-    padding-left: 0.5rem;
+    padding-left: 0.75rem;
   }
 
   .mainFooter > h3 > a {
@@ -78,6 +78,8 @@
 
   .mainFooter > section {
     width: 50%;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .icon {
