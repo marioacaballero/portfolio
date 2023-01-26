@@ -98,6 +98,8 @@ function Helix() {
         >
           https://www.nasa.gov/mission_pages/chandra/images/helix-nebula.html
         </a>
+      </p>
+      <p>
         Also, you can find more info
         <a
           href="https://en.wikipedia.org/wiki/Helix_Nebula"

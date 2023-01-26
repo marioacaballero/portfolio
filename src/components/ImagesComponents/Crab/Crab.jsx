@@ -108,6 +108,8 @@ function Crab() {
         >
           https://www.nasa.gov/feature/goddard/2017/messier-1-the-crab-nebula
         </a>
+      </p>
+      <p>
         Also, you can find more info
         <a
           href="https://en.wikipedia.org/wiki/Crab_Nebula"
