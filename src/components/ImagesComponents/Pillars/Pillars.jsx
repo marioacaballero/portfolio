@@ -113,6 +113,8 @@ function Pillars() {
         >
           https://www.nasa.gov/image-feature/the-pillars-of-creation
         </a>
+      </p>
+      <p>
         Also, you can find more info
         <a
           href="https://en.wikipedia.org/wiki/Pillars_of_Creation"

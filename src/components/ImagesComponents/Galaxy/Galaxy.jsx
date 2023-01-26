@@ -98,6 +98,8 @@ function Galaxy() {
         >
           https://www.nationalgeographic.com/science/article/galaxies
         </a>
+      </p>
+      <p>
         Also, you can find more info
         <a
           href="https://en.wikipedia.org/wiki/Galaxy"

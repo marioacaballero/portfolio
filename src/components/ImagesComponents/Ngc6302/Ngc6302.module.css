@@ -28,6 +28,7 @@
   background-color: rgba(0, 0, 0, 0.75);
   border: 0.5px solid rgba(245, 245, 245, 0.6);
   border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .mainNgc > div > h3 {
@@ -64,8 +65,9 @@
 
 .mainNgc > p {
   width: 80%;
-  margin-top: 2rem;
-  text-align: left;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .mainNgc > p > a {
@@ -163,11 +165,10 @@
   }
 
   .mainNgc > p {
-    width: 75%;
-    margin-top: 1rem;
+    width: 80%;
     font-size: 0.6rem;
     text-align: center;
-    height: 5rem;
+    margin-bottom: 0.5rem;
   }
 
   .mainNgc > p > a {

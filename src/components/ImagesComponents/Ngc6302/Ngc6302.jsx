@@ -124,6 +124,8 @@ function Ngc6302() {
         >
           https://www.nasa.gov/mission_pages/hubble/multimedia/ero/ero_ngc6302.html
         </a>
+      </p>
+      <p>
         Also, you can find more info
         <a
           href="https://en.wikipedia.org/wiki/NGC_6302"
