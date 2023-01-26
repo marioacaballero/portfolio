@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { FaGithubSquare, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import { CgMenuGridO } from 'react-icons/cg';
+import CV from '../Data/PersonalData/CV - Mario Caballero - Full Stack Web Developer.pdf';
 import style from './NavBar.module.css';
 
 function NavBar({
@@ -94,11 +95,7 @@ function NavBar({
         </a>
       </section>
       <div>
-        <a
-          href="https://github.com/marioacaballero"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={CV} download="CV - Mario Caballero - Full Stack Web Developer">
           <FaFileDownload className={style.icon2} />
         </a>
         <a

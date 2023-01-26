@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithubSquare, FaLinkedin, FaFileDownload } from 'react-icons/fa';
+import CV from '../Data/PersonalData/CV - Mario Caballero - Full Stack Web Developer.pdf';
 import style from './Footer.module.css';
 
 function Footer() {
@@ -10,11 +11,7 @@ function Footer() {
         <a href="/portfolio/#home">Mario Caballero</a>
       </h3>
       <section>
-        <a
-          href="https://github.com/marioacaballero"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={CV} download="CV - Mario Caballero - Full Stack Web Developer">
           <FaFileDownload className={style.icon2} />
         </a>
         <a
