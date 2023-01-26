@@ -122,7 +122,7 @@ function Ngc6302() {
           rel="noreferrer"
           target="_blank"
         >
-          https://www.nasa.gov/mission_pages/hubble/multimedia/ero/ero_ngc6302.html
+          https://www.nasa.gov/mission_pages/hubble/multimedia/
         </a>
       </p>
       <p>
