@@ -1,8 +1,8 @@
 /* eslint react/prop-types: 0 */
 
 import React from 'react';
-import { GiFallingStar } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
+import { GiFallingStar } from 'react-icons/gi';
 import CarouselProjects from '../Carousel/Carousel';
 import style from './Projects.module.css';
 import items from './projectsData';
