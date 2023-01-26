@@ -1,5 +1,6 @@
 import pokemon from '../Data/Projects/PokeFRV.gif';
 import cane from '../Data/Projects/CaneFood.gif';
+import baco from '../Data/Projects/bacofusion.gif';
 
 const items = [
   {
@@ -25,7 +26,7 @@ const items = [
   },
   {
     key: 3,
-    src: cane,
+    src: baco,
     altText: 'baco',
     caption: 'Slide 3',
     name: 'Baco Fusion',
