@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import bug1 from '../../Data/ImageComponents/Butterfly/butterfly1.jpeg';
 import bug2 from '../../Data/ImageComponents/Butterfly/butterfly2.jpg';
@@ -7,6 +7,10 @@ import bug4 from '../../Data/ImageComponents/Butterfly/butterfly4.jpg';
 import style from './Ngc6302.module.css';
 
 function Ngc6302() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className={style.mainNgc}>
       <button

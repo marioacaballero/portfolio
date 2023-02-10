@@ -9,7 +9,8 @@ function Start({ refStart }) {
   return (
     <div id="home" className={style.mainStart}>
       <header ref={refStart}>
-        <p>Hello World! Welcome, I am</p>
+        <p>Hello World! Welcome!!!</p>
+        <span>I am</span>
       </header>
       <h1>Mario Alberto Caballero</h1>
       <h3>Full Stack Web Developer and Engineer</h3>

@@ -8,13 +8,9 @@ import style from './About.module.css';
 import profile from '../Data/PersonalData/me.jpg';
 
 function About({ refAbout }) {
-  const goUp = () => {
-    window.scroll(0, 0);
-  };
-
   return (
     <main id="about" className={style.mainAbout}>
-      <Link to="/pillars" className={style.btn} onClick={() => goUp()}>
+      <Link to="/pillars" className={style.btn}>
         <GiFallingStar className={style.ico} />
         Info
       </Link>
@@ -23,21 +19,28 @@ function About({ refAbout }) {
         <img alt="profile" src={profile} />
         <section>
           <p ref={refAbout}>
-            I am a Full Stack Developer specialize in web design. I am a good
-            solving problems, creative, proactive and I have a great autonomy,
+            I am a Full Stack Developer specialize in web designed. I am a good
+            solving problems, creative, proactive and I have a great autonomy;
             and I enjoy working in teams.
           </p>
           <p>
-            I lead the started of an E-commerce related to vegetarian food
-            located on Rosario, Argentina.
+            I work with PERN stack, and also include Redux, Ant Design,
+            Sequelize, Typescript and some others; I am opening to work with new
+            technologies too. Actually, I am practice with NestJs to develop an
+            admin app for E-Commerce.
+          </p>
+          <p>
+            I am in charge of an E-commerce related to healthy vegetarian food
+            located in Rosario, Argentina.
           </p>
           <p>
             In my free time I like to practice some sports and read books to
-            keep my body and my mind healthy.
+            keep my body and my mind in a healthy way.
           </p>
           <p>
-            You can find in me a good criticism, automation on all things that I
-            do and a great leadership.
+            As regards my social skills, I have a possitive critical attitude,
+            openminded, an automated way of doing different tasks and a great
+            skill for leadership.
           </p>
         </section>
       </section>

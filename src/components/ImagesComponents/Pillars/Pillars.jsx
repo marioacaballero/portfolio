@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import nebula from '../../Data/ImageComponents/Pillars/pillars2.jpg';
 import nebula2 from '../../Data/ImageComponents/Pillars/nebula.jpg';
@@ -7,6 +7,10 @@ import pillars2 from '../../Data/ImageComponents/Pillars/pillars3.jpg';
 import style from './Pillars.module.css';
 
 function Pillars() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className={style.mainPillars}>
       <button

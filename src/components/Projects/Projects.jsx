@@ -8,13 +8,9 @@ import style from './Projects.module.css';
 import items from './projectsData';
 
 function Projects({ refProjects }) {
-  const goUp = () => {
-    window.scroll(0, 0);
-  };
-
   return (
     <div id="projects" className={style.mainProjects}>
-      <Link to="/crab" className={style.btn} onClick={() => goUp()}>
+      <Link to="/crab" className={style.btn}>
         <GiFallingStar className={style.ico} />
         Info
       </Link>

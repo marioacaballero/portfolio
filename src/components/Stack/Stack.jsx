@@ -8,13 +8,9 @@ import { allStack, allSoft } from './techData';
 import TechImgs from './TechImgs/TechImgs';
 
 function Stack({ refSkills }) {
-  const goUp = () => {
-    window.scroll(0, 0);
-  };
-
   return (
     <div id="skills" className={style.mainStack}>
-      <Link to="/helix" className={style.btn} onClick={() => goUp()}>
+      <Link to="/helix" className={style.btn}>
         <GiFallingStar className={style.ico} />
         Info
       </Link>

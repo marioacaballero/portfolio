@@ -12,6 +12,7 @@
 }
 .mainStart > h1,
 .mainStart > header > p,
+.mainStart > header > span,
 .mainStart > h3 {
   color: whitesmoke;
   letter-spacing: 2px;
@@ -29,14 +30,28 @@
   /* color: rgb(184, 242, 254); */
 }
 
+.mainStart > header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
 .mainStart > header > p {
-  margin-top: 6rem;
   font-size: 2rem;
+  text-align: center;
+}
+
+.mainStart > header > span {
+  font-size: 2rem;
+  text-align: center;
 }
 
 .mainStart > h3 {
   font-size: 2.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .btn {
@@ -76,15 +91,14 @@
   }
 
   .mainStart > header > p {
-    margin-top: 5rem;
-    font-size: 1.75rem;
     width: 80%;
-    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
   }
 
-  .mainStart > header {
-    display: flex;
-    justify-content: center;
+  .mainStart > header > span {
+    font-size: 1.75rem;
+    margin-top: 1rem;
   }
 
   .mainStart > h1 {
