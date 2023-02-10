@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import helix from '../../Data/ImageComponents/Helix/helix1.jpeg';
 import helix2 from '../../Data/ImageComponents/Helix/helix4.jpg';
@@ -7,6 +7,10 @@ import helix4 from '../../Data/ImageComponents/Helix/helix6.jpg';
 import style from './Helix.module.css';
 
 function Helix() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className={style.mainHelix}>
       <button

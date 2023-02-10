@@ -20,10 +20,6 @@ function Contact({ refContact }) {
   const [input, setInput] = useState(initialState);
   const [errors, setErrors] = useState({});
 
-  const goUp = () => {
-    window.scroll(0, 0);
-  };
-
   const handleInputChange = (e) => {
     e.preventDefault();
     setErrors(
@@ -77,7 +73,7 @@ function Contact({ refContact }) {
 
   return (
     <div id="contact" className={style.mainContact}>
-      <Link to="/ngc6302" onClick={() => goUp()} className={style.btn}>
+      <Link to="/ngc6302" className={style.btn}>
         <GiFallingStar className={style.ico} />
         Info
       </Link>

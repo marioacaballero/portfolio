@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 400px;
+  height: 900px;
   color: rgba(245, 245, 245, 0.85);
   -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
 }
@@ -23,12 +23,12 @@
 .mainCard > div > h3 {
   font-weight: bold;
   letter-spacing: 2px;
-  margin-top: 5px;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
 .mainCard > div > div > p {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 0;
   width: 55%;
   height: 100%;
@@ -50,7 +50,7 @@
   display: flex;
   align-content: center;
   gap: 0.5rem;
-  margin-top: 10px;
+  margin-top: 1rem;
   text-decoration: none;
   color: rgba(245, 245, 245, 0.85);
   -webkit-text-stroke: 0.5px rgba(0, 0, 255, 0.3);
@@ -74,11 +74,11 @@
 
 @media only screen and (max-width: 600px) {
   .mainCard {
-    height: 550px;
+    height: 600px;
   }
 
   .mainCard > img {
-    height: 50%;
+    height: 60%;
   }
 
   .mainCard > div > h3 {

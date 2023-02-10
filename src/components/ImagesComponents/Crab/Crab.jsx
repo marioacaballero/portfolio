@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import crab1 from '../../Data/ImageComponents/Crab/crab1.jpeg';
 import crab2 from '../../Data/ImageComponents/Crab/crab2.jpg';
@@ -7,6 +7,10 @@ import crab4 from '../../Data/ImageComponents/Crab/crab4.jpg';
 import style from './Crab.module.css';
 
 function Crab() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className={style.mainCrab}>
       <button

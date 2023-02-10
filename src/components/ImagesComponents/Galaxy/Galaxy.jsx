@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TiArrowBackOutline, TiArrowUpOutline } from 'react-icons/ti';
 import galaxy1 from '../../Data/ImageComponents/Galaxy/galaxy1.jpg';
 import galaxy2 from '../../Data/ImageComponents/Galaxy/galaxy2.jpg';
@@ -7,6 +7,10 @@ import galaxies from '../../Data/ImageComponents/Galaxy/galaxies3.jpeg';
 import style from './Galaxy.module.css';
 
 function Galaxy() {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
+
   return (
     <div className={style.mainGalaxy}>
       <button
