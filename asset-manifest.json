@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d1fc20e8.css",
-    "main.js": "/portfolio/static/js/main.05b411fb.js",
+    "main.css": "/portfolio/static/css/main.c2ea7eee.css",
+    "main.js": "/portfolio/static/js/main.e9b58fd2.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bacofusion.gif": "/portfolio/static/media/bacofusion.685e684f763d6597c76f.gif",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
@@ -28,7 +28,7 @@
     "static/media/me.jpg": "/portfolio/static/media/me.d31cfc89134c2204b2ad.jpg",
     "static/media/pillars3.jpg": "/portfolio/static/media/pillars3.25604af5613d8c247bd4.jpg",
     "static/media/butterfly.jpg": "/portfolio/static/media/butterfly.f32ab16fb9f9153c9b64.jpg",
-    "static/media/CV - Mario Caballero - Full Stack Web Developer.pdf": "/portfolio/static/media/CV - Mario Caballero - Full Stack Web Developer.a4cd72165975d414a9cf.pdf",
+    "static/media/CV - Mario Caballero - Full Stack Web Developer.pdf": "/portfolio/static/media/CV - Mario Caballero - Full Stack Web Developer.2ae870c762ae2a24b3e2.pdf",
     "static/media/helix5.jpg": "/portfolio/static/media/helix5.d49b3382c208b5acc8a5.jpg",
     "static/media/butterfly2.jpg": "/portfolio/static/media/butterfly2.98255f31889419b3ae38.jpg",
     "static/media/pilares.jpg": "/portfolio/static/media/pilares.293126cd022ad85fed0f.jpg",
@@ -52,12 +52,12 @@
     "static/media/Postgresql.png": "/portfolio/static/media/Postgresql.fb8d7b878f3614b60008.png",
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d1fc20e8.css.map": "/portfolio/static/css/main.d1fc20e8.css.map",
-    "main.05b411fb.js.map": "/portfolio/static/js/main.05b411fb.js.map",
+    "main.c2ea7eee.css.map": "/portfolio/static/css/main.c2ea7eee.css.map",
+    "main.e9b58fd2.js.map": "/portfolio/static/js/main.e9b58fd2.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1fc20e8.css",
-    "static/js/main.05b411fb.js"
+    "static/css/main.c2ea7eee.css",
+    "static/js/main.e9b58fd2.js"
   ]
 }
