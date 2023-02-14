@@ -1,8 +1,13 @@
-// import { render, screen } from '@testing-library/react';
-// import App from './App';
+import { render } from '@testing-library/react';
+import { MemoryRouter as Router } from 'react-router-dom';
+import App from './App';
 
-test('renders learn react link', () => {
-  // render(<App />);
-  // const linkElement = screen.getByText(/hello/i);
-  expect(true).toBe(true);
+describe('App', () => {
+  it('should render', () => {
+    render(
+      <Router initialEntries={['/portfolio']}>
+        <App />
+      </Router>
+    );
+  });
 });
