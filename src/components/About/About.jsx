@@ -14,7 +14,7 @@ function About({ refAbout }) {
         <GiFallingStar className={style.ico} />
         Info
       </Link>
-      <h2>-- About Me --</h2>
+      <h2>💫 About Me 💫</h2>
       <section>
         <img alt="profile" src={profile} />
         <section>

@@ -14,7 +14,7 @@ function Stack({ refSkills }) {
         <GiFallingStar className={style.ico} />
         Info
       </Link>
-      <h2 ref={refSkills}>-- My Skills --</h2>
+      <h2 ref={refSkills}>🚀 My Skills 🚀</h2>
       <section>
         <div>
           <h3>Tech Skills</h3>
