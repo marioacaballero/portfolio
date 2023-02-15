@@ -18,6 +18,7 @@
   letter-spacing: 2px;
   -webkit-text-stroke: 1px blue;
   font-weight: bold;
+  text-shadow: 7px 7px 3.5px black;
 }
 
 .mainStart > h1 {
@@ -69,6 +70,7 @@
   color: rgba(244, 228, 9, 0.85);
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 7px 7px 3.5px black;
 }
 
 .ico {

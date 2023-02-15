@@ -14,7 +14,7 @@ function Projects({ refProjects }) {
         <GiFallingStar className={style.ico} />
         Info
       </Link>
-      <h2 ref={refProjects}>-- My Projects --</h2>
+      <h2 ref={refProjects}>🪐 My Projects 🪐</h2>
       <section>
         <div>
           <CarouselProjects items={items} />

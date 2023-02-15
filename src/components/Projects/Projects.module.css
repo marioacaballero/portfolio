@@ -19,6 +19,7 @@
   margin-top: 5.5rem;
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
+  text-shadow: 7px 7px 3.5px black;
 }
 
 .mainProjects > section {
@@ -28,6 +29,7 @@
   width: 80%;
   height: fit-content;
   margin-bottom: 2rem;
+  box-shadow: 7px 7px 3.5px black;
 }
 
 .mainProjects > section > div {
@@ -49,6 +51,7 @@
   color: rgba(244, 228, 9, 0.85);
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.35);
+  box-shadow: 7px 7px 3.5px black;
 }
 
 .ico {

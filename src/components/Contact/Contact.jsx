@@ -77,7 +77,7 @@ function Contact({ refContact }) {
         <GiFallingStar className={style.ico} />
         Info
       </Link>
-      <h2>-- Contact Me --</h2>
+      <h2>🛰 Contact Me 🛰</h2>
       <form ref={form} onSubmit={sendEmail}>
         <input
           ref={refContact}
