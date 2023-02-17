@@ -20,15 +20,15 @@ function About({ refAbout }) {
         <img alt="profile" src={profile} />
         <section>
           <p ref={refAbout}>
-            I am a Full Stack Developer specialize in web designed. I am a good
-            solving problems, creative, proactive and I have a great autonomy;
-            and I enjoy working in teams.
+            I am a Full Stack Developer specialized in web design. I am a good
+            at solving problems, creative, proactive and I have a great
+            autonomy; and I enjoy working in teams.
           </p>
           <p>
             I work with PERN stack, and also include Redux, Ant Design,
-            Sequelize, Typescript and some others; I am opening to work with new
-            technologies too. Actually, I am practice with NestJs to develop an
-            admin app for E-Commerce.
+            Sequelize, Typescript and some others. I am open to work with new
+            technologies as well. Currently, I am practising with NestJs to
+            develop and administrate apps for E-Commerce.
           </p>
           <p>
             I am in charge of an E-commerce related to healthy vegetarian food
