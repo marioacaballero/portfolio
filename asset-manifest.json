@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47e9a842.css",
-    "main.js": "/portfolio/static/js/main.dbcdd1e9.js",
+    "main.js": "/portfolio/static/js/main.7b0e4d4c.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bacofusion.gif": "/portfolio/static/media/bacofusion.685e684f763d6597c76f.gif",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
@@ -28,7 +28,7 @@
     "static/media/me.jpg": "/portfolio/static/media/me.d31cfc89134c2204b2ad.jpg",
     "static/media/pillars3.jpg": "/portfolio/static/media/pillars3.25604af5613d8c247bd4.jpg",
     "static/media/butterfly.jpg": "/portfolio/static/media/butterfly.f32ab16fb9f9153c9b64.jpg",
-    "static/media/CV - Mario Caballero - Full Stack Web Developer.pdf": "/portfolio/static/media/CV - Mario Caballero - Full Stack Web Developer.509345ad1ae3f37a6552.pdf",
+    "static/media/CV - Mario Caballero - Full Stack Web Developer.pdf": "/portfolio/static/media/CV - Mario Caballero - Full Stack Web Developer.c87c6c0b85ee3b28483f.pdf",
     "static/media/helix5.jpg": "/portfolio/static/media/helix5.d49b3382c208b5acc8a5.jpg",
     "static/media/butterfly2.jpg": "/portfolio/static/media/butterfly2.98255f31889419b3ae38.jpg",
     "static/media/pilares.jpg": "/portfolio/static/media/pilares.293126cd022ad85fed0f.jpg",
@@ -53,11 +53,11 @@
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
     "main.47e9a842.css.map": "/portfolio/static/css/main.47e9a842.css.map",
-    "main.dbcdd1e9.js.map": "/portfolio/static/js/main.dbcdd1e9.js.map",
+    "main.7b0e4d4c.js.map": "/portfolio/static/js/main.7b0e4d4c.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47e9a842.css",
-    "static/js/main.dbcdd1e9.js"
+    "static/js/main.7b0e4d4c.js"
   ]
 }
