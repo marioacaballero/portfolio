@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import Crab from '../../src/components/ImagesComponents/Crab/Crab';
 
 describe('Crab Component', () => {

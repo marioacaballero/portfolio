@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /// <reference types="Cypress" />
 
 const url = 'http://localhost:3000/portfolio/';
