@@ -1,4 +1,7 @@
-const { defineConfig } = require("cypress");
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable no-unused-vars */
+
+const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   e2e: {
@@ -9,8 +12,8 @@ module.exports = defineConfig({
 
   component: {
     devServer: {
-      framework: "create-react-app",
-      bundler: "webpack",
+      framework: 'create-react-app',
+      bundler: 'webpack',
     },
   },
 });
