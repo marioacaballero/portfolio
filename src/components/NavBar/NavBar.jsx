@@ -95,17 +95,23 @@ function NavBar({
         </a>
       </section>
       <div>
-        <a href={CV} download="CV - Mario Caballero - Full Stack Web Developer">
+        <a
+          id="navCv"
+          href={CV}
+          download="CV - Mario Caballero - Full Stack Web Developer"
+        >
           <FaFileDownload className={style.icon2} />
         </a>
         <a
-          href="https://github.com/marioacaballero"
+          id="navGithub"
+          href="http://github.com/marioacaballero"
           target="_blank"
           rel="noreferrer"
         >
           <FaGithubSquare className={style.icon} />
         </a>
         <a
+          id="navLinkedin"
           href="https://www.linkedin.com/in/mario-a-caballero/"
           target="_blank"
           rel="noreferrer"
@@ -114,6 +120,7 @@ function NavBar({
         </a>
       </div>
       <button
+        id="navBar"
         type="button"
         onClick={() => toggle()}
         className={style.navResponsive}

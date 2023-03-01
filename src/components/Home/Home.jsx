@@ -19,6 +19,7 @@ function Home() {
   return (
     <div className={style.mainHome}>
       <button
+        id="toTop"
         type="button"
         onClick={() => window.scrollTo(0, 0)}
         className={style.toTop}
