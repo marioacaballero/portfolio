@@ -1,6 +1,7 @@
 import pokemon from '../Data/Projects/PokeFRV.gif';
 import cane from '../Data/Projects/CaneFood.gif';
 import baco from '../Data/Projects/bacofusion.gif';
+import caneadm from '../Data/Projects/NestJs.gif';
 
 const items = [
   {
@@ -33,6 +34,15 @@ const items = [
     description: 'React, Redux, Ant Design, Typescript',
     repo: 'https://github.com/marioacaballero/Baco-Fusion-App',
     demo: 'http://bacofusion.com.ar',
+  },
+  {
+    key: 4,
+    src: caneadm,
+    altText: 'caneadm',
+    caption: 'Slide 3',
+    name: 'caneadm',
+    description: 'NestJs, Typescript, Node',
+    repo: 'https://github.com/marioacaballero/caneadm',
   },
 ];
 
