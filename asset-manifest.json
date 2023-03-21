@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.19d7bde2.css",
-    "main.js": "/portfolio/static/js/main.f6a2b003.js",
+    "main.js": "/portfolio/static/js/main.25182eac.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bacofusion.gif": "/portfolio/static/media/bacofusion.685e684f763d6597c76f.gif",
     "static/media/CaneFood.gif": "/portfolio/static/media/CaneFood.35aed668c43e1c580a3f.gif",
@@ -9,6 +9,7 @@
     "static/media/galaxy1.png": "/portfolio/static/media/galaxy1.f20e68d9b6463605ba58.png",
     "static/media/pillars1.jpg": "/portfolio/static/media/pillars1.4b4a29aba242f2bfed36.jpg",
     "static/media/crab.png": "/portfolio/static/media/crab.77696dd641f1e40d1204.png",
+    "static/media/NestJs.gif": "/portfolio/static/media/NestJs.c16a14fd091bf25c1063.gif",
     "static/media/galaxy.jpg": "/portfolio/static/media/galaxy.556c6f999a745602e62a.jpg",
     "static/media/galaxy2.jpg": "/portfolio/static/media/galaxy2.43d72e51a394ade9e73a.jpg",
     "static/media/pilares-v2.jpg": "/portfolio/static/media/pilares-v2.d207f221ac80519aed79.jpg",
@@ -53,11 +54,11 @@
     "static/media/crab4.jpg": "/portfolio/static/media/crab4.7cd8ac8f314a5253ca99.jpg",
     "index.html": "/portfolio/index.html",
     "main.19d7bde2.css.map": "/portfolio/static/css/main.19d7bde2.css.map",
-    "main.f6a2b003.js.map": "/portfolio/static/js/main.f6a2b003.js.map",
+    "main.25182eac.js.map": "/portfolio/static/js/main.25182eac.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19d7bde2.css",
-    "static/js/main.f6a2b003.js"
+    "static/js/main.25182eac.js"
   ]
 }
