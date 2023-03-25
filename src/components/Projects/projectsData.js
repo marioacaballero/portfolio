@@ -2,6 +2,7 @@ import pokemon from '../Data/Projects/PokeFRV.gif';
 import cane from '../Data/Projects/CaneFood.gif';
 import baco from '../Data/Projects/bacofusion.gif';
 import caneadm from '../Data/Projects/NestJs.gif';
+import infinite from '../Data/Projects/infinite-scroll.png';
 
 const items = [
   {
@@ -39,10 +40,20 @@ const items = [
     key: 4,
     src: caneadm,
     altText: 'caneadm',
-    caption: 'Slide 3',
+    caption: 'Slide 4',
     name: 'caneadm',
     description: 'NestJs, Typescript, Node',
     repo: 'https://github.com/marioacaballero/caneadm',
+  },
+  {
+    key: 5,
+    src: infinite,
+    altText: 'infinite',
+    caption: 'Slide 5',
+    name: 'Infinite Scroll App',
+    description: 'React, Typescript, React-Intersection-Observer',
+    repo: 'https://github.com/marioacaballero/react-infinit-scroll',
+    demo: 'https://react-infinit-scroll.vercel.app/',
   },
 ];
 
